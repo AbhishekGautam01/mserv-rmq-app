@@ -19,7 +19,7 @@ namespace MicroservicesRabbitMQ.Banking.Api.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Account>> Get()
         {
-            return Ok();
+            return Ok(_accountService.GetAccounts());
         }
 
         [HttpPost]
