@@ -1,9 +1,7 @@
-﻿using MicroServicesRabbitMQ.Domain.Core.Events;
+﻿using MicroservicesRabbitMQ.Domain.Core.Events;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace MicroServicesRabbitMQ.Domain.Core.Commands
+namespace MicroservicesRabbitMQ.Domain.Core.Commands
 {
     public abstract class Command: Message
     {

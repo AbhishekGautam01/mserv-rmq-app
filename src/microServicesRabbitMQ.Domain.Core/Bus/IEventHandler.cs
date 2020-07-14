@@ -1,7 +1,4 @@
-﻿using MicroServicesRabbitMQ.Domain.Core.Events;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MicroservicesRabbitMQ.Domain.Core.Events;
 using System.Threading.Tasks;
 
 namespace MicroServicesRabbitMQ.Domain.Core.Bus

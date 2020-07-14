@@ -13,11 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7D9D69E9-570A-4D68-AD1C-0432D74D3E50}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesRabbitMQ.Domain.Core", "microServicesRabbitMQ.Domain.Core\MicroServicesRabbitMQ.Domain.Core.csproj", "{114E7DC0-BB1E-449F-A937-14EF7EC0E70A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesRabbitMQ.Domain.Core", "microServicesRabbitMQ.Domain.Core\MicroservicesRabbitMQ.Domain.Core.csproj", "{114E7DC0-BB1E-449F-A937-14EF7EC0E70A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesRabbitMQ.Bus", "MicroServicesRabbitMQ.Bus\MicroServicesRabbitMQ.Bus.csproj", "{D5692C97-DEB2-4BC7-92B2-94D86737E7F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesRabbitMQ.Bus", "MicroServicesRabbitMQ.Bus\MicroservicesRabbitMQ.Bus.csproj", "{D5692C97-DEB2-4BC7-92B2-94D86737E7F7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesRabbitMQ.Infra.IOC", "MicroServicesRabbitMQ.Infra.IOC\MicroServicesRabbitMQ.Infra.IOC.csproj", "{E9A75B82-8338-4FEC-B752-4FA353D7E900}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesRabbitMQ.Infra.IOC", "MicroServicesRabbitMQ.Infra.IOC\MicroservicesRabbitMQ.Infra.IOC.csproj", "{E9A75B82-8338-4FEC-B752-4FA353D7E900}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Banking", "Banking", "{0F00E289-D5CD-4B73-AB65-81DC7155DFB5}"
 EndProject
@@ -31,13 +31,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{301434F6-76B6-4CED-BFAE-29DAF1F39C76}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServices.RabbitMQ.Banking.Api", "MicroServices.RabbitMQ.Banking.Api\MicroServices.RabbitMQ.Banking.Api.csproj", "{17EBFF9D-164B-48C6-9257-015B47E18F1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesRabbitMQ.Banking.Api", "MicroServices.RabbitMQ.Banking.Api\MicroservicesRabbitMQ.Banking.Api.csproj", "{17EBFF9D-164B-48C6-9257-015B47E18F1C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServices.RabbitMQ.Banking.Application", "MicroServices.RabbitMQ.Banking.Application\MicroServices.RabbitMQ.Banking.Application.csproj", "{CB253020-344F-4F89-BB04-8F9ADB665AB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesRabbitMQ.Banking.Application", "MicroServices.RabbitMQ.Banking.Application\MicroservicesRabbitMQ.Banking.Application.csproj", "{CB253020-344F-4F89-BB04-8F9ADB665AB1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServices.RabbitMQ.Banking.Data", "MicroServices.RabbitMQ.Banking.Data\MicroServices.RabbitMQ.Banking.Data.csproj", "{4B75DB70-0B97-4797-8156-967AF55945C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesRabbitMQ.Banking.Data", "MicroServices.RabbitMQ.Banking.Data\MicroservicesRabbitMQ.Banking.Data.csproj", "{4B75DB70-0B97-4797-8156-967AF55945C5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServices.RabbitMQ.Banking.Domain", "MicroServices.RabbitMQ.Banking.Domain\MicroServices.RabbitMQ.Banking.Domain.csproj", "{815516A8-8C3B-4EE1-A4DD-29A6DDFE3186}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroservicesRabbitMQ.Banking.Domain", "MicroServices.RabbitMQ.Banking.Domain\MicroservicesRabbitMQ.Banking.Domain.csproj", "{815516A8-8C3B-4EE1-A4DD-29A6DDFE3186}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transfer", "Transfer", "{B78DCD6E-7E92-4A8E-BE6F-5C596ABAFDE3}"
 EndProject
@@ -49,7 +49,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B5991C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{72C84C40-F600-41A9-93E9-B988B6149513}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesRabbitMQ.Transfer.Api", "MicroServicesRabbitMQ.Transfer.Api\MicroServicesRabbitMQ.Transfer.Api.csproj", "{83FFD05F-84AC-49C7-823C-418080A72BCD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesRabbitMQ.Transfer.Api", "MicroServicesRabbitMQ.Transfer.Api\MicroservicesRabbitMQ.Transfer.Api.csproj", "{83FFD05F-84AC-49C7-823C-418080A72BCD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesRabbitMQ.Transfer.Application", "MicroservicesRabbitMQ.Transfer.Application\MicroservicesRabbitMQ.Transfer.Application.csproj", "{AFA476BA-EA31-4A79-8182-BD30633CD9D6}"
 EndProject

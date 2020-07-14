@@ -1,6 +1,10 @@
 ﻿using MicroservicesRabbitMQ.Domain.Core.Events;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
 
-namespace MicroservicesRabbitMQ.Banking.Domain.Events
+namespace MicroservicesRabbitMQ.Transfer.Domain.Events
 {
     public class TransferCreatedEvent: Event
     {

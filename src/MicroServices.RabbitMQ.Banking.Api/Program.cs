@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace MicroServices.RabbitMQ.Banking.Api
+namespace MicroservicesRabbitMQ.Banking.Api
 {
     public class Program
     {

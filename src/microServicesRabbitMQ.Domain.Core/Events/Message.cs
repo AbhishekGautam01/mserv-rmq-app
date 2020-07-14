@@ -1,9 +1,6 @@
 ﻿using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace MicroServicesRabbitMQ.Domain.Core.Events
+namespace MicroservicesRabbitMQ.Domain.Core.Events
 {
     public abstract class Message: IRequest<bool>
     {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace MicroServices.RabbitMQ.Banking.Data.Migrations
+namespace MicroservicesRabbitMQ.Banking.Data.Migrations
 {
-    public partial class InitialMigration : Migration
+    public partial class IntialMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using MicroServicesRabbitMQ.Domain.Core.Bus;
-using MicroServicesRabbitMQ.Domain.Core.Commands;
-using MicroServicesRabbitMQ.Domain.Core.Events;
+using MicroservicesRabbitMQ.Domain.Core.Commands;
+using MicroservicesRabbitMQ.Domain.Core.Events;
 using Newtonsoft.Json;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MicroServicesRabbitMQ.Bus
+namespace MicroservicesRabbitMQ.Bus
 {
     public sealed class RabbitMQBus : IEventBus
     {
@@ -95,7 +95,7 @@ namespace MicroServicesRabbitMQ.Bus
             {
                 await ProcessEvent(eventName, message).ConfigureAwait(false);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 throw;

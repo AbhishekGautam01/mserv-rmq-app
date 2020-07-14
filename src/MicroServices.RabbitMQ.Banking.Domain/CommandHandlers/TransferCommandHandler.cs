@@ -1,14 +1,11 @@
 ﻿using MediatR;
-using MicroServices.RabbitMQ.Banking.Domain.Commands;
-using MicroServices.RabbitMQ.Banking.Domain.Events;
+using MicroservicesRabbitMQ.Banking.Domain.Commands;
+using MicroservicesRabbitMQ.Banking.Domain.Events;
 using MicroServicesRabbitMQ.Domain.Core.Bus;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace MicroServices.RabbitMQ.Banking.Domain.CommandHandlers
+namespace MicroservicesRabbitMQ.Banking.Domain.CommandHandlers
 {
     public class TransferCommandHandler : IRequestHandler<CreateTransferCommand, bool>
     {

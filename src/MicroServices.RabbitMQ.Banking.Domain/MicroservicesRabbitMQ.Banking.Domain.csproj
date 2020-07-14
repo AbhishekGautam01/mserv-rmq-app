@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\microServicesRabbitMQ.Domain.Core\MicroServicesRabbitMQ.Domain.Core.csproj" />
+    <ProjectReference Include="..\microServicesRabbitMQ.Domain.Core\MicroservicesRabbitMQ.Domain.Core.csproj" />
   </ItemGroup>
 
 </Project>

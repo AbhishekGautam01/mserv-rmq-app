@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using MicroServices.RabbitMQ.Banking.Application.Interfaces;
-using MicroServices.RabbitMQ.Banking.Application.Models;
-using MicroServices.RabbitMQ.Banking.Domain.Models;
+﻿using System.Collections.Generic;
+using MicroservicesRabbitMQ.Banking.Application.Interfaces;
+using MicroservicesRabbitMQ.Banking.Application.Models;
+using MicroservicesRabbitMQ.Banking.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MicroServices.RabbitMQ.Banking.Api.Controllers
+namespace MicroservicesRabbitMQ.Banking.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -22,7 +19,7 @@ namespace MicroServices.RabbitMQ.Banking.Api.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Account>> Get()
         {
-            return Ok(_accountService.GetAccounts());
+            return Ok();
         }
 
         [HttpPost]

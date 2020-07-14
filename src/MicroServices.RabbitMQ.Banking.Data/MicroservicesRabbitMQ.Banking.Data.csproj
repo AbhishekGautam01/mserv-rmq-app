@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MicroServices.RabbitMQ.Banking.Domain\MicroServices.RabbitMQ.Banking.Domain.csproj" />
+    <ProjectReference Include="..\MicroServices.RabbitMQ.Banking.Domain\MicroservicesRabbitMQ.Banking.Domain.csproj" />
   </ItemGroup>
 
 </Project>

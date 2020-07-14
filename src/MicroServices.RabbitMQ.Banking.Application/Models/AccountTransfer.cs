@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MicroServices.RabbitMQ.Banking.Application.Models
+﻿namespace MicroservicesRabbitMQ.Banking.Application.Models
 {
     public class AccountTransfer
     {

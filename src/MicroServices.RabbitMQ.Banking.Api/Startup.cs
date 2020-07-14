@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MediatR;
-using MicroServices.RabbitMQ.Banking.Data.Context;
+using MicroservicesRabbitMQ.Banking.Data.Context;
 using MicroServicesRabbitMQ.Infra.IOC;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace MicroServices.RabbitMQ.Banking.Api
+namespace MicroservicesRabbitMQ.Banking.Api
 {
     public class Startup
     {

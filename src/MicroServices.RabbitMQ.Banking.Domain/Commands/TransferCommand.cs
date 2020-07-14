@@ -1,9 +1,6 @@
-﻿using MicroServicesRabbitMQ.Domain.Core.Commands;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MicroservicesRabbitMQ.Domain.Core.Commands;
 
-namespace MicroServices.RabbitMQ.Banking.Domain.Commands
+namespace MicroservicesRabbitMQ.Banking.Domain.Commands
 {
     public class TransferCommand: Command
     {

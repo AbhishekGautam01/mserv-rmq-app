@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -6,8 +6,12 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\microServicesRabbitMQ.Domain.Core\MicroservicesRabbitMQ.Domain.Core.csproj" />
+    <ProjectReference Include="..\MicroservicesRabbitMQ.Transfer.Data\MicroservicesRabbitMQ.Transfer.Data.csproj" />
+    <ProjectReference Include="..\MicroservicesRabbitMQ.Transfer.Domain\MicroservicesRabbitMQ.Transfer.Domain.csproj" />
   </ItemGroup>
 
 </Project>

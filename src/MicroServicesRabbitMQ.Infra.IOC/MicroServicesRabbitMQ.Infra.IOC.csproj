@@ -1,13 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MicroServices.RabbitMQ.Banking.Application\MicroServices.RabbitMQ.Banking.Application.csproj" />
-    <ProjectReference Include="..\MicroServicesRabbitMQ.Bus\MicroServicesRabbitMQ.Bus.csproj" />
-    <ProjectReference Include="..\microServicesRabbitMQ.Domain.Core\MicroServicesRabbitMQ.Domain.Core.csproj" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicroServices.RabbitMQ.Banking.Application\MicroservicesRabbitMQ.Banking.Application.csproj" />
+    <ProjectReference Include="..\MicroServices.RabbitMQ.Banking.Domain\MicroservicesRabbitMQ.Banking.Domain.csproj" />
+    <ProjectReference Include="..\MicroServicesRabbitMQ.Bus\MicroservicesRabbitMQ.Bus.csproj" />
+    <ProjectReference Include="..\microServicesRabbitMQ.Domain.Core\MicroservicesRabbitMQ.Domain.Core.csproj" />
+    <ProjectReference Include="..\MicroservicesRabbitMQ.Transfer.Application\MicroservicesRabbitMQ.Transfer.Application.csproj" />
+    <ProjectReference Include="..\MicroservicesRabbitMQ.Transfer.Domain\MicroservicesRabbitMQ.Transfer.Domain.csproj" />
   </ItemGroup>
 
 </Project>

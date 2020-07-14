@@ -1,9 +1,7 @@
-﻿using MicroServices.RabbitMQ.Banking.Domain.Models;
-using System;
+﻿using MicroservicesRabbitMQ.Banking.Domain.Models;
 using System.Collections.Generic;
-using System.Text;
 
-namespace MicroServices.RabbitMQ.Banking.Domain.Interfaces
+namespace MicroservicesRabbitMQ.Banking.Domain.Interfaces
 {
     public interface IAccountRepository
     {
